@@ -62,7 +62,7 @@ namespace Vidly2
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Customer}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
